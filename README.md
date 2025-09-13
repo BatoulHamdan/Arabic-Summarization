@@ -75,12 +75,9 @@ Conduct human evaluation of summaries
 
 📂 Project Structure
 📦 arabic-summarization-tinyllama
- ┣ 📜 data_preprocessing.py   # Dataset loading & cleaning
- ┣ 📜 train_lora.py           # Fine-tuning script
- ┣ 📜 evaluate.py             # ROUGE evaluation
+ ┣ ArabicTextSummarize - TinyLlama.ipynb
  ┣ 📜 requirements.txt        # Dependencies
  ┣ 📜 README.md               # Project overview
- ┗ 📂 results/                # Sample outputs & metrics
 
 ⚡ Installation & Usage
 1. Clone repo
@@ -90,11 +87,8 @@ cd arabic-summarization
 2. Install dependencies
 pip install -r requirements.txt
 
-3. Run training
-python train_lora.py
-
-4. Run evaluation
-python evaluate.py
+3. Run 
+ArabicTextSummarize - TinyLlama.ipynb
 
 🙌 Acknowledgments
 XLSum dataset
